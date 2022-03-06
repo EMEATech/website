@@ -1,0 +1,26 @@
+site_name: EMEATech
+site_url: 'https://emeatech.org'
+site_description: >-
+  An online community of technology professionals in around Europe, Middle East, and Africa.
+
+theme:
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
+  name: material
+  logo: assets/emealogo.png
+
+  palette:
+    primary: amber
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - meta
+
+nav:
+  - Home: index.md
+
+extra:
+  generator: false
