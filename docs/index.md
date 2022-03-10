@@ -6,15 +6,17 @@ There are already many strong online technology focused communities, but many of
 
 ## EMEA resources
 
-- job boards
+- news
+- jobs
 - visas and work permits
-- compensation structures
-- startup communities
+- [compensation and salary information](./emea-salary-resources/)
 - technology questions and answers
 
-## Chat with us
+## EMEA chat-based communities
 
-- Telegram
+* [ZATech Slack](https://zatech.co.za): A Slack community of around 10k members, mainly technology professionals from South Africa.
+
+* **EMEATech Telegram**: A Telegram group for EMEATech. Fill out this short [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdfB5SXQzWLHGjFrHUSc-tl5dQcsYDBgw5mui_akP6YhXxbEw/viewform) to join.
 
 
 
