@@ -20,7 +20,10 @@ markdown_extensions:
   - meta
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Welcome: index.md
+    - Compensation resources: emea-salary-resources.md 
+
 
 extra:
   generator: false
