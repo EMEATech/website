@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://emeatech.org/</loc>
-         <lastmod>2022-03-10</lastmod>
+         <lastmod>2022-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emeatech.org/emea-salary-resources/</loc>
-         <lastmod>2022-03-10</lastmod>
+         <lastmod>2022-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emeatech.org/finding-a-job-in-emea/</loc>
+         <lastmod>2022-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
