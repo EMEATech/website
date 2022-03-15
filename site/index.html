@@ -10,14 +10,13 @@
       
       
       
-      
         <link rel="canonical" href="https://emeatech.org/">
       
       
         
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.2+insiders-2.12.2">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3+insiders-4.5.0">
     
     
       
@@ -25,17 +24,17 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.98acb380.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.f8ad3a65.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.73e53a79.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
         
           
           
           <meta name="theme-color" content="#ffc105">
         
       
-      <link rel="preload" as="style" href="assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      <link rel="preload" as="style" href="assets/stylesheets/vendor/mermaid.9c0dc1da.min.css">
       
     
     
@@ -44,15 +43,13 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    
-    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?".":"."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
 
     
     
@@ -67,6 +64,16 @@
     
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="amber" data-md-color-accent="">
   
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
     
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -119,8 +126,7 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -166,20 +172,29 @@
     <ul class="md-tabs__list">
       
         
+
+
+  
+    
+    
+      
+    
   
   
     
+    
+    
+      <li class="md-tabs__item">
+        <a href="." class="md-tabs__link md-tabs__link--active">
+          
   
+    
+  
+  Home
 
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="." class="md-tabs__link md-tabs__link--active">
-        Home
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -218,6 +233,7 @@
       
       
 
+
   
   
     
@@ -246,11 +262,20 @@
       
         
         
-        <div class="md-nav__link md-nav__link--container md-nav__link--active">
-          <a href=".">Home</a>
-          <label for="__nav_1">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+        <div class="md-nav__link md-nav__container">
+          <a href="." class="md-nav__link md-nav__link--active">
+            
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+
+          </a>
+          
+            <label class="md-nav__link md-nav__link--active" for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
         </div>
       
       <nav class="md-nav" aria-label="Home" data-md-level="1">
@@ -261,7 +286,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-            
           
             
               
@@ -270,7 +294,12 @@
   
     <li class="md-nav__item">
       <a href="emea-salary-resources/" class="md-nav__link">
-        Compensation resources
+        
+  
+  <span class="md-ellipsis">
+    Compensation resources
+  </span>
+
       </a>
     </li>
   
@@ -284,7 +313,12 @@
   
     <li class="md-nav__item">
       <a href="finding-a-job-in-emea/" class="md-nav__link">
-        Job resources
+        
+  
+  <span class="md-ellipsis">
+    Job resources
+  </span>
+
       </a>
     </li>
   
@@ -298,7 +332,12 @@
   
     <li class="md-nav__item">
       <a href="jobs/" class="md-nav__link">
-        Job listings
+        
+  
+  <span class="md-ellipsis">
+    Job listings
+  </span>
+
       </a>
     </li>
   
@@ -323,6 +362,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -362,9 +402,9 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                
-                <h1 id="welcome-to-emeatech">Welcome to EMEATech</h1>
+
+
+<h1 id="welcome-to-emeatech">Welcome to EMEATech</h1>
 <p>EMEATech is a community of people with an interest in Europe, the Middle East and Africa, working in fields relating to technology, including software engineering, machine learning, devops and others.</p>
 <p>There are already many strong online technology focused communities, but many of these are mainly active in timezones that overlap with the US, and discussion around jobs, culture, etc tends to be US-heavy too. For example, many of these communities advertise jobs, but even the ones advertised as 'fully remote' expect you to overlap with US working hours, or even have US work authorization.</p>
 <h2 id="emea-resources">EMEA resources</h2>
@@ -384,10 +424,8 @@
 <p><strong>EMEATech Telegram</strong>: A Telegram group for EMEATech. Fill out this short <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfB5SXQzWLHGjFrHUSc-tl5dQcsYDBgw5mui_akP6YhXxbEw/viewform">Google Form</a> to join.</p>
 </li>
 </ul>
-                
-              
-              
-                
+
+
 
 
               
@@ -398,8 +436,7 @@
         
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
@@ -423,11 +460,10 @@
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+</div>
       
     </div>
   </div>
@@ -438,10 +474,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes", "navigation.tabs", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.61ac8e46.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes", "navigation.tabs", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.2c14e664.min.js"}</script>
     
     
-      <script src="assets/javascripts/bundle.218b5f82.min.js"></script>
+      <script src="assets/javascripts/bundle.21ccbe1b.min.js"></script>
       
     
   </body>
