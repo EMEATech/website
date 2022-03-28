@@ -17,3 +17,13 @@ Build the website:
 ```bash
 mkdocs build
 ```
+
+## AirTable Integration
+
+Get all jobs posted to AirTable, format them as markdown and add them to `jobs.md`
+
+```sh
+export EMEATECH_AIRTABLE_API_KEY=''
+
+make Makefile
+```
