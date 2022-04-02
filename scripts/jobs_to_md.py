@@ -17,7 +17,7 @@ These are jobs we've seen around that are friendly towards EMEA time zones. Most
 for job in data['records']:
     if job['fields']:
         fields = job['fields']
-        document += f"* **{fields['Company']} | {fields['Position']} | {fields['Salary']}.** {fields['Description']} {fields['URL']}. Posted on {fields['Created']}\n"
+        document += f"* **{fields['Company']} | {fields['Position']} | {fields['Salary']}.** {fields['Description']} [Link]({fields['URL']}). Posted on {fields['Created']}\n"
     document += "\n"
 
 with output_data.open('w') as f:
