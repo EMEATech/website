@@ -21,10 +21,14 @@ markdown_extensions:
 
 nav:
   - Home: 
-    - Welcome: index.md
-    - Compensation resources: emea-salary-resources.md 
-    - Job resources: finding-a-job-in-emea.md
-    - Job listings: jobs.md
+    - home/index.md
+  - Jobs:
+    - jobs/index.md
+    - Salary resources: jobs/emea-salary-resources.md
+    - Job resources: jobs/finding-a-job-in-emea.md
+  - News:
+    - news/index.md
+
 
 
 extra:
