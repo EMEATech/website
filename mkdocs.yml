@@ -28,6 +28,13 @@ nav:
     - Job resources: jobs/finding-a-job-in-emea.md
   - News:
     - news/index.md
+  - Visas and Immigration:
+    - visas_immigration/index.md
+
+
+
+extra:
+  generator: false
 
 
 
